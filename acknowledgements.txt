@@ -1,0 +1,13 @@
+Acknowledgements
+- Lukas Peraza for his Pygame demo
+- Unknown author of original Bouncy Bouncy game
+
+Images
+- https://s-media-cache-ak0.pinimg.com/736x/d8/57/d2/d857d2137335dbb88313278e36856d72.jpg
+- http://thumb1.shutterstock.com/display_pic_with_logo/788446/225959290/stock-vector-set-of-cracks-and-clefs-isolated-on-white-background-for-disaster-design-225959290.jpg
+- http://www.graphic-buffet.com/wp-content/uploads/2013/12/free-spikes-and-blades.jpg
+
+Sounds
+- https://freesound.org/
+- http://www.freesfx.co.uk/
+- http://soundbible.com/
