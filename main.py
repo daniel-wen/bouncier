@@ -111,9 +111,12 @@ class Game(PygameGame):
         self.ball = Ball(*self.startpos)
         self.score = 0
         self.stopwatch.restart()
-        highscore = self.progress[self.level]["score"]
+        if self.level != "test":
+            highscore = self.progress[self.level]["score"]
+            bestTime = self.progress[self.level]["time"]
+        else:
+            highscore, bestTime = None, None
         self.highscoreText = str(highscore) if highscore != None else "---"
-        bestTime = self.progress[self.level]["time"]
         if bestTime != None:
             self.bestTimeText = Stopwatch.secToMin(bestTime)
         else:

@@ -105,9 +105,10 @@ class Terrain(pygame.sprite.Sprite):
             else:
                 direction = "bottom"
         else:
-            # Collisons with staircases are inconsistent
-            assert(False)
-        return element, direction
+            # Staircase
+            f = Terrain.collideSingle
+            return [f(ball, elements[0]), f(ball, elements[1])]
+        return [(element, direction)]
 
     @staticmethod
     def collideTriple(ball, elements):
@@ -130,7 +131,7 @@ class Terrain(pygame.sprite.Sprite):
         if len(elements) == 1:
             return [Terrain.collideSingle(ball, elements[0])]
         elif len(elements) == 2:
-            return [Terrain.collideDouble(ball, elements)]
+            return Terrain.collideDouble(ball, elements)
         else:
             return Terrain.collideTriple(ball, elements)
 
