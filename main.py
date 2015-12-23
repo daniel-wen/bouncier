@@ -168,6 +168,7 @@ class Game(PygameGame):
         elif self.mode == "win":
             if keyCode == 13:
                 self.mode = "menu"
+                self.menu = self.mainMenu
         elif self.mode == "help":
             if keyCode == 27:
                 self.mode = "menu"
