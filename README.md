@@ -12,3 +12,7 @@ Run `main.py`
 ##Third party library requirements
 
 Pygame ([installation instructions](https://www.pygame.org/wiki/GettingStarted))
+
+##Standalone binaries
+
+[Download](http://lane-widen.com/bouncy-bouncy/) the Mac OS X app or the Windows executable. These can be used without Python.
