@@ -44,9 +44,8 @@ class Game(PygameGame):
     def initMainMenu(self):
         top = 130
         left = 80
-        entries = ["Play", "Level select", "Instructions", "Turn sound off"]
-        actions = [self.playLevel, self.doLevelMenu,
-            self.doHelp, self.toggleSound]
+        entries = ["Play", "Level select", "Instructions"]
+        actions = [self.playLevel, self.doLevelMenu, self.doHelp]
         self.mainMenu = Menu(left, top, entries, actions)
 
     def initLevelMenu(self):
@@ -332,6 +331,6 @@ class Game(PygameGame):
             "Avoid pits and spikes.",
             "Hold both Left/Right arrow keys to wall jump!",
             "Cannons make you fly. Hit the opposite arrow key to stop flying.",
-            "Press Escape in game to pause."]
+            "Press Escape in game to pause or change settings."]
 
 Game().run()
