@@ -1,4 +1,4 @@
-# Term project deliverable 2
+# Term project
 # Daniel Wen (lanhaow)
 # 15-112 Section L
 
