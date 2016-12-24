@@ -6,7 +6,7 @@ A 2D platform game for 15-112 term project
 
 This is a 2D platform game inspired by an old Bouncy Bouncy game. You play as a bouncy ball that can interact with the terrain in various ways.
 
-[Video](https://www.youtube.com/watch?v=YB8V19umHn8)
+[Video](https://lane-widen.com/bouncy-bouncy/)
 
 ## How to use
 Run `main.py`
